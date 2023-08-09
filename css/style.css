@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #37608b;
+    color: white;
+    /* border: none; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#error {
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
